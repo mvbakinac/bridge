@@ -2,7 +2,7 @@
 /* orange #f15025 */
 /* black #353531 */
 /* naviblue #2d3142 */
-/* grey #cedoce */
+/* grey #ced0ce */
 /* smoke white */
 
 html, body {
@@ -84,4 +84,54 @@ body {
   opacity: 0.6;
   color: black;
   border-color: black;
+}
+
+/* services */
+
+/* header */
+
+.header h1 {
+
+   text-transform: uppercase;
+   font-size: 40px;
+   margin-bottom: 5px;
+   margin-top: 20px;
+   
+}
+
+.header-underline {
+  width: 150px;
+  border: 3px solid #f15025;
+  margin: 0 auto 20px auto;
+}
+
+.header p {
+  font-size: 16px;
+  padding: 0 30px;
+  margin-bottom: 40px;
+}
+
+/* services section */
+
+#services {
+  background-color: #ced0ce; 
+  padding: 40px 40px;
+}
+
+.services-container .fa {
+  font-size: 100px;
+  color: #f15025;
+}
+
+#services h2 {
+  margin: 10px auto 20px auto;
+}
+
+.services-container p {
+   font-size: 16px;
+   line-height: 1.5em;
+}
+
+.services-container {
+   padding: 20px 40px;
 }
