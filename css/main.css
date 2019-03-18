@@ -135,3 +135,39 @@ body {
 .services-container {
    padding: 20px 40px;
 }
+
+/* Promise */
+
+.promise-image {
+   height: 600px;
+   background-image: url("https://picjumbo.com/wp-content/uploads/business-gear-smartphone-silver-pen-and-diary-2210x1474.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border-top: 600px solid transparent;
+   border-right: 150px solid whitesmoke;
+   
+}
+.promise-text {
+   height: 600px;
+   background-color: whitesmoke;
+   padding: 40px 20px;
+}
+
+.promise-icon  {
+   margin-left: 25px;
+}
+
+.promise-icon p {
+  font-size: 20px;
+  line-height: 1.2em;
+  margin-bottom: 40px;
+  
+ }
+
+#promise .fa {
+  color: #f15025;
+  margin-right: 20px;
+
+}
