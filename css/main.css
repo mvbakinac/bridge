@@ -160,11 +160,14 @@ body {
 }
 
 .promise-icon p {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.2em;
-  margin-bottom: 40px;
   
  }
+
+#promise {
+  margin-bottom: 10px;
+}
 
 #promise .fa {
   color: #f15025;
