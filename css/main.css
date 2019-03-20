@@ -249,8 +249,26 @@ body {
   transform: scale(1.3);
 }
 
+/* team section */
 
+#team {
+  border-top: solid 6px #f15025;
+  padding: 40px;
+  background-color: whitesmoke;
+}
 
+#team img {
+  background-color: #f15025;
+}
+
+#team .fab {
+  font-size: 40px;
+  margin-right: 10px;
+  color: #f15025;
+}
+
+#team .col-sm-6 {
+  margin: 40px 0;
 
 
 
