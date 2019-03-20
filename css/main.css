@@ -269,7 +269,24 @@ body {
 
 #team .col-sm-6 {
   margin: 40px 0;
+}
+/* numbers */
 
+#numbers  {
+ padding: 40px;
+ background-image: url("https://images.unsplash.com/photo-1512250591270-0bea37004c99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ color: whitesmoke;
+  
+}
+
+#numbers .fa {
+ font-size: 40px;
+ color: #f15025;
+}
 
 
 
