@@ -387,7 +387,18 @@ body {
   color: #f15025;
  }
 
+/* cliens */
 
+#clients {
+  padding: 60px 40px;
+  background-color: whitesmoke;
+ 
+}
+
+#clients img {
+  width: 200px;
+  height: 180px;
+}
 
 
 

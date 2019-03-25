@@ -19,6 +19,9 @@
     <!-- main CSS -->
     <link href="css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="css/magnific-popup.css">
+     <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
   </head>
   <body> 
@@ -527,30 +530,30 @@ Lor   em ipsum dolor amet austin yuccie intelligentsia, pitchfork viral four lok
      <!-- end of a header -->
      <div class="row" >
         <div class="col-md-12 ">
-           <div id="logo" class="owl-carousel olw-theme">
-              <div class="logos">
-                  <img src="#" class="img-fluid" alt="logo" style="display:inline">
+           <div id="logo" class="owl-carousel owl-theme">
+              <div class="logos text-center">
+                  <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" class="img-fluid" alt="logo" style="display:inline">
               </div>
-              <div class="logos">
-                  <img src="#" class="img-fluid" alt="logo" style="display:inline">
+              <div class="logos text-center">
+                  <img src="https://images.unsplash.com/photo-1529077246295-f6c7172c8165?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=983&q=80" class="img-fluid" alt="logo" style="display:inline">
               </div>
-              <div class="logos">
-                  <img src="#" class="img-fluid" alt="logo" style="display:inline">
+              <div class="logos text-center">
+                  <img src="https://images.unsplash.com/photo-1529612700005-e35377bf1415?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="img-fluid" alt="logo" style="display:inline">
               </div>
-              <div class="logos">
-                  <img src="#" class="img-fluid" alt="logo" style="display:inline">
+              <div class="logos text-center">
+                  <img src="https://images.unsplash.com/photo-1525980978611-a89001322e01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="img-fluid" alt="logo" style="display:inline">
               </div>
-              <div class="logos">
-                  <img src="#" class="img-fluid" alt="logo" style="display:inline">
+              <div class="logos text-center">
+                  <img src="https://images.unsplash.com/photo-1519073391087-984096115727?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" class="img-fluid" alt="logo" style="display:inline">
               </div>
-              <div class="logos">
-                  <img src="#" class="img-fluid" alt="logo" style="display:inline">
+              <div class="logos text-center">
+                  <img src="https://images.unsplash.com/photo-1530398257477-3e1b0b0ed605?ixlib=rb-1.2.1&auto=format&fit=crop&w=1437&q=80" class="img-fluid" alt="logo" style="display:inline">
               </div>
-              <div class="logos">
-                  <img src="#" class="img-fluid" alt="logo" style="display:inline">
+              <div class="logos text-center">
+                  <img src="https://images.unsplash.com/photo-1542109545-6cf5d8a3bcd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="img-fluid" alt="logo" style="display:inline">
               </div>
-              <div class="logos">
-                  <img src="#" class="img-fluid" alt="logo" style="display:inline">
+              <div class="logos text-center">
+                  <img src="https://images.unsplash.com/photo-1533884863135-6d9235299a07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=915&q=80" class="img-fluid" alt="logo" style="display:inline">
               </div>
            </div>
         </div>
@@ -575,4 +578,28 @@ Lor   em ipsum dolor amet austin yuccie intelligentsia, pitchfork viral four lok
 <script src="js/magnific.js"></script>
 <script src="js/script.js"></script>
 <script src="js/numscroller-1.0.js"></script>
+ <script src="owlcarousel/owl.carousel.js"></script>
+ <script >
+  $(document).ready(function(){
+   $('#logo').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+});
+ 
+</script>
+
 </html>
+
