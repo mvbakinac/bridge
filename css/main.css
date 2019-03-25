@@ -401,7 +401,10 @@ body {
 }
 
 
-
+/* quotes */
+#quotes img {
+  width: 200px;
+}
 
 
 
