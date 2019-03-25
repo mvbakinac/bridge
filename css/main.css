@@ -430,3 +430,29 @@ body {
   background-color: #ced0ce;
   color: #353531;
 }
+
+/* social */
+
+#social {
+ padding: 20px 40px;
+ color: whitesmoke;
+ background-color:  #353531;
+
+}
+
+.social-icons {
+  font-size: 60px;
+  padding-top: 20px;
+}
+
+#social .social-icons a {
+   color: #f15025;
+   text-decoration: none;
+}
+#social .social-icons a:hover {
+  color: deepskyblue;
+}
+
+footer #social h3 {
+  padding: 40px 0;
+}
