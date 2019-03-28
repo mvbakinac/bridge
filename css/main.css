@@ -86,8 +86,51 @@ body {
   border-color: black;
 }
 
-/* services */
+/* navbar */
+ 
+ .navbar {
+   border: 0px;
+   padding: 10px 0;
+   transition: all 1s ease-in-out;
+}
 
+.transparent {
+  background: rgba(0,0,0,0.7);
+}
+
+nav a {
+ color: white !important;
+}
+
+nav a:hover {
+  color: #f15025 !important;
+}
+
+.active a {
+ background: none !important;
+ color: #f15025 !important;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-style: italic;
+  color: #f15025 !important;
+}
+
+.navbar-toggler {
+ color: white;
+ font-size: 20px;
+ border-color: white !important;
+ }
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+  background-color: white !important;
+  color: #f15025 !important;
+}
+ 
+.navbar-collapse {
+  border-color: #f15025 !important;
+}
 /* header */
 
 .header h1 {
